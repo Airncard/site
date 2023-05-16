@@ -24,7 +24,6 @@
 }
 .menu-icon{
     width: 30px;
-    cursor: pointer;
     margin-left: 40px;
 }
 nav{
@@ -66,15 +65,28 @@ button{
     margin-top: 30px;
 }
 .card{
-    width: 200px;
-    height: 230px;
+    width: 300px;
+    height: 450px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(testimg/trees.png);
     background-position: center;
     background-size: cover;
+    transition: box-shadow 1s;
+}
+
+.card1{
+    background-image: url(testimg/balansas.png);
+}
+.card2{
+    background-image: url(testimg/rysiai.png);
+}
+
+.card:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.452),
+    0 0 10px rgba(255, 255, 255, 0.445), 0 0 25px rgba(255, 255, 255, 0.452),
+    0 0 50px rgba(255, 255, 255, 0.473), 0 0 100px rgba(255, 255, 255, 0.459);
 }

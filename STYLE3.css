@@ -24,7 +24,6 @@
 }
 .menu-icon{
     width: 30px;
-    cursor: pointer;
     margin-left: 40px;
 }
 nav{
@@ -81,4 +80,15 @@ button{
     background-image: url(testimg/trees.png);
     background-position: center;
     background-size: cover;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 500px;
+
 }
